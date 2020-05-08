@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: #444;
+	margin: 0;
+	scroll-behavior: smooth;
+	
+}
+
+
+.body
+{
+	background-color: #444;
+	margin: 0;
+	background-image: url("activity_based_working.jpg");
+	width: 100%;
+	background-size: cover;         
+	 background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	
+}
+
+
+.genomskinlig
+{
+	color: black;
+	background-color: black;
+	opacity: 80%;
+	min-height: 600px;
+}
+
+.lindeskolan
+{
+	font-size: 80px;
+	font-weight: 600;
+	opacity: 50%;
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+
+.genomskinlig2
+{
+	color: black;
+	background-color: black;
+	opacity: 10%;
+	min-height: 600px;
+}
+
+.parallax5 {
+ 
+background-image: url("skrivtavla.jpg");
+  /* Set a specific height */
+ height: 600px; 
+width: 100%;
+	 
+}
+ 
+
+ .stortext
+{
+	font-weight: 600;
+	padding: 140px 30px 20px;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	opacity: 50%;
+}
+
+
+	
+
+.romben
+{
+	width:160px;
+	margin:auto;
+		padding:104px 0 0 0 ;
+	
+}
+
+.parallax6 {
+ 
+background-image:url("vitbakgrund.jpg");
+  /* Set a specific height */
+ height: 600px;
+width: 100%;
+  /* Create the parallax scrolling effect */
+
+  
+	
+} 
+ 
+
+.onbox
+{
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 10% 0;
+	
+}
+.bilden
+{margin:auto;
+	width: 300px;
+	padding:100px 0 0 0;
+}
+
+.vitram3
+{
+	background-color: white;
+	width: 100%;
+	
+}
+
+.mellandel
+{
+	background-image: url("rombivitbild.jpg");
+	width: 100%;
+	height: 100px;
+	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mellandel4
+{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.taupp3
+{
+	margin-left: 1%;
+	width: 98%;
+	height: 320px;
+	background-color:#F3F3F3;
+	
+}
+.ram
+{
+	background-image: url("ram.png");
+	float: left;
+	width:46%;
+	
+	margin-left: 2%;
+	margin-top: 20px; 
+	height: 320px;
+	background-repeat:  no-repeat;
+	background-size: cover;
+}
+
+.kontaktaosstext
+{
+	margin-top: 70px;
+	font-size: 40px;
+	color:#151515;
+	text-align: center;
+	font-weight: 600;
+	
+} 
+
+.telefontext
+{
+	font-style: italic;
+font-size: 35px;
+	text-align: center;
+	color: #363636;
+	margin-top: 0px;
+	font-weight: 500;
+	
+} 
+
+.parallax3 {
+  /* The image used */
+
+margin-right: 2%;
+  /* Set a specific height */
+  height: auto; 
+	margin-top: 20px;
+text-align: center;
+  width: 46%;
+ float: right;
+	margin-left: 2%;
+	
+  background-repeat: no-repeat;
+	background-size: cover;}
+
+
+
+.vitram2
+{
+	background-color: white;
+	width: 100%;
+}
+.taupp4
+{
+	width: 98%;
+	height: 360px;
+	background-color: #F3F3F3;
+	margin-left: 1%;
+	
+}
+
+.parallax4 {
+  /* The image used */
+ 	
+margin-left: 2%;
+  /* Set a specific height */
+ height: auto;
+	margin-top: 20px;
+text-align: center;
+  width: 46%;
+ float: left;
+	
+	margin-right: 2%;
+  background-repeat: no-repeat;
+	background-size: cover;}
+
+
+
+
+  
+
+.map-container iframe{
+width: 46%;
+	margin-left: 2%;
+	margin-right: 0%;
+	height: auto;
+ margin-top: 20px;
+	float: left;
+
+}
+
+.mellandel2
+
+	{ 
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.taupp5
+{
+	background-color: white;
+	width: 100%;
+	height: 200px;
+}
+
+.ig
+{margin-top: 25px;
+	margin-left: 150px;
+	background-image: url("igblue.png");
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.fb
+{margin-top: 25px;
+	margin-left: 150px;
+	background-image: url("fblogo.png");
+	width: 150px;
+	height: 150px;
+	float:left;
+	
+}
+
+
+.mail
+{ margin-top: 25px;
+	margin-left: 150px;
+	background-image: url("mail1.png");
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+
+.telefon
+{
+	margin-top: 25px;
+	margin-left: 150px;
+	background-image: url("phonio1.png");
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.mellandel3
+{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vitram
+{
+	padding-top: 50px;
+	width: 100%;
+	background-color: white;
+	height:800px;
+	
+}
+.graram
+{ padding-top: 100px;
+	
+	height: 700px;
+	width: 96%;
+	background-color: #F3F3F3;
+	margin-left: 2%;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("bästagruppbilden.jpg");
+
+	margin-left: 100px;
+	
+  /* Set a specific height */
+  min-height: 500px; 
+width: 80%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+
+
+h4
+{
+	margin-left: 20px;
+}
+	h5
+{
+	margin-left: 20px;
+}
+
+
+
+
+/* On screens that are 900px wide or less */
+@media screen and (max-width: 900px) {
+	
+ .stortext
+{
+	font-weight: 600;
+	padding: 140px 30px 20px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	opacity: 50%;
+}
+	.romben
+{
+		width:100px;
+	    margin:auto;
+		padding:254px 0 0 0 ;
+	
+}
+	.onbox1
+	{
+    font-size: 20px;
+	text-align: center;
+	padding: 10px 30px 0;
+		
+	}
+	
+	.bilden
+{margin:auto;
+	width: 200px;
+	padding:100px 0 0 0;
+	}
+  
+}
+
+

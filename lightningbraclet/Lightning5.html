@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	 <link href="egen modal/modal.css" rel="stylesheet" type="text/css"/> 
+	<link href="lightning.css" rel="stylesheet" type="text/css"/>
+	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+     <body>
+	   
+         <!--hamburge iconen -->
+         <nav class="navbar fixed-top navbar-toggleable-sm bg-grey">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+              <span> </span>
+              <span> </span>
+              <span> </span>
+             </button>
+	
+		      <!-- loggan -->
+			 
+	           <div class="logga">
+                <a class="navbar-brand" href="#">
+	             <img src="nysvartlogga.png" alt="Logo">
+	            </a>
+			   </div>
+			
+			  
+	
+
+		
+           	
+	
+	
+	<!--menyn-->
+    
+     <div class="collapse navbar-collapse" id="collapsingNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+		   Home
+		  </a>
+        </li>
+		  
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+	   About
+	   </a>
+      </li>
+		  
+       <li class="nav-item">
+         <a class="nav-link" href="#">
+		 Products
+		 </a>
+        </li>
+				
+		 <li class="nav-item">
+         <a class="nav-link" href="#">
+		 Contact Us
+		 </a>
+        </li>
+		  
+	
+		
+     </ul>
+   </div>
+</nav>
+
+		
+		 
+<header>
+<div class="stars">
+		 <img src="stjärnor.jpg" alt="pic" width="250px" style= "display: block; margin-left: auto; margin-right: auto;">
+		 </div>
+		 </header>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="package.jpg" style="width:90%" max-height="400px" alt="pic">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="lightningbraclet.jpg" style="width:90%" max-height="400px" alt="pic">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="braclet.jpg" style="width:90%; " max-height="400px" alt="pic">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="computerandphone.jpg" style="width:90%" max-height="400px" alt="pic">
+  </div>
+
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  
+
+ 
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+	
+	<h3>Lightning Bracelet</h3>
+	<h3> 100KR</h3>
+    
+	</div>
+	  <div class="marjin">
+		 <div class="valj">
+			 <div class="valj2">
+				 <label  class="texttyp" for="inputEmail4">Type</label>
+<select class="form-control form-control-sm">
+  <option>Välj</option>
+	<option>Lightning Kabel</option>
+	<option>Type-C Kabel</option>
+	<option>Micro USB Kabel</option>
+</select>
+	</div>
+	</div>
+	
+			 </div>
+		 <div class="marjin">
+		  <div class="valj">
+			 <div class="valj2">
+				 <label class="texttyp" for="inputEmail4">Storlek</label>
+<select class="form-control form-control-sm">
+  <option>Storlek</option>
+	<option>20 cm</option>
+	<option>22.5 cm</option>
+</select>
+	</div>
+			 </div>
+			 
+</div>
+		 <div class="btn-height">
+		 
+		 <button type="button" class="btn btn-secondary btn-lg btn-block">Lägg i varukorg</button>
+		 </div>
+	 
+		 
+		 
+		 
+		     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="java.js"></script>
+  </body>
+</html>
+	
+

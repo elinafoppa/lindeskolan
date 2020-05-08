@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="modal.css" rel="stylesheet" type="text/css"/>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+<title>modal</title>
+</head>
+<body>
+   <button id="modal-btn2" class="button2"> 
+	<div class="cart">
+	    <a class="cartlogo" href="#">
+			<img src="../shopping-cart svart.png" alt="logo">	
+	    </a>
+	  </div>
+	</button>
+
+  <div id="my-modal2" class="modal2">
+    <div class="modal-content2">
+      <div class="modal-header2">
+        
+        <h2>Varukorg</h2>
+		  <span class="closeModal">&times;</span>
+      </div>
+      <div class="modal-body2">
+     <div class="listan">
+					    <div class="artikeln">
+							
+						 
+							
+							<div class="artikelbilden">
+							<img src="../braclet.jpg"  class="artikelbilden" alt="hello"> 
+							</div>
+							 <div class="artikeltext">
+						  <h5 class="artikeltext">Lightning Bracelet</h5>
+						  </div>
+						       <div class="artikelinfon">
+							   <p>Type: Lightning, Storlek: 20cm </p>
+								  <div class="nummervalj">
+								<div class="input-group">
+                                <select class="custom-select" id="inputGroupSelect04">
+                                <option selected>1</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                </select>
+								  </div>
+		                          </div>   
+							   </div>
+						  <div class="artikelpris">
+						  <span class="pris">129KR</span>
+		                  <br>
+	                      <a class="tabort" href="#">Ta bort</a>  
+						  </div>
+						</div>
+					</div>
+					
+					
+					<br>
+                    <hr class="style1">
+                    <br>
+					
+					
+					
+							
+							<div class="artikelbilden">
+							<img src="../braclet.jpg"  class="artikelbilden" alt="hello"> 
+							</div>
+							 <div class="artikeltext">
+						  <h5 class="artikeltext">Lightning Bracelet</h5>
+						  </div>
+						       <div class="artikelinfon">
+							   <p>Type: Lightning, Storlek: 20cm </p>
+								  <div class="nummervalj">
+								<div class="input-group">
+                                <select class="custom-select" id="inputGroupSelect04">
+                                <option selected>1</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                </select>
+								  </div>
+		                          </div>   
+							   </div>
+						  <div class="artikelpris">
+						  <span class="pris">129KR</span>
+		                  <br>
+	                      <a class="tabort" href="#">Ta bort</a>  
+						  </div>
+			<div class="footer" >	<a href="Shopping-cart/shopping-cart.html">							
+				<button type="button" class="btn btn-primary btn-lg btn-block">Gå till varukorg</button>
+					</a>
+							</div>			
+		</div>
+					</div>
+      </div>
+      
+    
+	
+  
+	
+	<script>
+// Get DOM Elements
+const modal2 = document.querySelector('#my-modal2');
+const modalBtn2 = document.querySelector('#modal-btn2');
+const closeBtn2 = document.querySelector('.closeModal');
+
+// Events
+modalBtn2.addEventListener('click', openModal2);
+closeBtn2.addEventListener('click', closeModal2);
+window.addEventListener('click', outsideClick);
+
+// Open
+function openModal2() {
+  modal2.style.display = 'block';
+}
+
+// Close
+function closeModal2() {
+  modal2.style.display = 'none';
+}
+
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal2) {
+    modal2.style.display = 'none';
+  }
+}
+
+	
+	</script>
+	
+</body>
+</html>

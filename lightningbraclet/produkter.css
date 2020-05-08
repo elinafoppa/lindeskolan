@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.moln
+{
+	background-image: url("molningbakgrund500.jpg");
+	background-size: cover;
+	height: 200px;
+	width:100%;
+	margin-top: -20px;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.text
+{
+		font-size: 80px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	opacity: 90%;
+	padding-top: 40px;
+	
+}
+
+.mellis
+{
+	background-color: white;
+	height: 50px;
+	width: 100%;
+}
+.enram
+{
+	width: 96%;
+	background-color: #E0E0E0;
+	height: 500px;
+	margin-left: 2%;
+}
+
+
+
+
+
+.card
+{
+	width: 100%;
+}
+
+.card-img-top
+{
+	width: 90%;
+}
+
+

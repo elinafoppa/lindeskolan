@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body, html{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+	
+
+.navbar_elina
+{
+	
+	position:absolute;
+	top:100;
+	z-index:-99;
+}	
+	
+
+
+.navbar
+{
+	background-color: #e7e7e7;
+
+}
+.grey
+{background-color: #e7e7e7;
+color: #e7e7e7;}
+body {
+    padding-top: 70px;
+    font-family: 'Lato',sans-serif;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+   display: block;
+   background-color: #444;
+   height: 3px;
+   width: 25px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   webkit-transform: rotate(0deg);
+   moz-transform: rotate(0deg);
+   o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   position: relative;
+   left: 0;
+   opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+   webkit-transition: transform .35s ease-in-out;
+   moz-transition: transform .35s ease-in-out;
+   o-transition: transform .35s ease-in-out;
+   transition: transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    webkit-transform: rotate(135deg);
+    moz-transform: rotate(135deg);
+    o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    webkit-transform: rotate(-135deg);
+    moz-transform: rotate(-135deg);
+    o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+}
+
+
+
+
+.logga{ width: 200px;
+margin: auto;
+	
+}
+
+.logga img
+{ width: 100%;
+margin-top: 5px;
+	margin-left: 35px;
+}
+
+	.valj
+{width: 90%;}
+
+.valj2
+{
+	margin-left: 10%;
+}
+
+
+/*klistra in och ut denna för att centrera headern*/
+img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3
+{
+	text-align: center;
+	font: "Copperplate Gothic Bold";
+	font-style: normal;
+	font-family: "Copperplate Gothic Bold";
+}
+	.btn-height
+{
+	margin-top: 40px;
+	font-family: "Copperplate Gothic Bold";
+}
+ 
+.mySlides
+{
+	margin-top: 0px;
+}
+.cart{ width: 30px;
+	margin-right: 20px;
+}
+
+.cart img
+{ width: 100%;
+margin-bottom:3px;
+}
+
+.cart .logga .anvandare
+{margin-top: 20px;}
+
+.marjin
+{
+	margin-top: 30px;
+}
+.texttyp
+{
+	font-family: "Copperplate Gothic Bold";
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+	margin-left: 30px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+a
+{
+	text-align: center;
+	color: black;
+	font-family:"Copperplate Gothic Bold";
+	font: bolder;
+	font-size: 20px;
+}
+
+
+
+.IndexRightPanel {
+   display: block; 
+   overflow: hidden; 
+   padding-left: 0px; 
+   position: fixed; 
+   top:0; 
+   right: 0; 
+   bottom: 0; 
+   width: 400px;
+   z-index: 1050; 
+   background-color: white;
+   visibility: hidden;
+   border-left: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.IndexRightPanel .special-color-dark
+{
+   width: 100%;
+   text-align: right;
+   height: 56px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.IndexRightPanel .special-color-dark .close
+{
+   padding: 16px !important;
+   color: #ffffff !important;
+   text-shadow: 1px 1px 0 #808080 !important;
+}
+
+
+
+

@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+  modal-duration: 1s;
+  modal-color: #428bca;
+}
+
+
+
+.cart{ width: 30px;
+	margin-right: 15px;
+}
+
+.cart img
+{ width: 100%;
+margin-bottom:3px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  height: 100%;
+  
+position: absolute;
+}
+
+.button2 {
+ 
+ background-color: #e7e7e7;
+  border: 0;
+  
+  cursor: pointer;
+}
+
+.button2:hover {
+  
+}
+
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content2 {
+ margin-left: 75%;
+  margin-right: 0;
+  width: 25%;
+  height: 100%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-header2 h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header2 {
+  background: #444;
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body2 {
+  padding: 10px 20px;
+  background: #fff;
+	height: 89.5%;
+	
+}
+
+
+
+.closeModal {
+  color: white;
+  float: right;
+  font-size: 30px;
+  
+}
+
+.closeModal:hover,
+.closeModal:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tjobre
+{
+	width: 100%;
+}
+
+
+
+.artikeln
+{
+	height: 100%;
+	width: 100%;
+}
+.artikeltext
+{
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-left: 52px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.artikelbilden
+{
+	margin-top: 0;
+	max-height: 115px;
+	max-width: 115px;
+	float: left;
+	border-radius: 25%;
+}
+
+.artikelinfon
+{
+	margin-top: 2px;
+	margin-left: 12px;
+	font-size: 12px;
+	width: 30%;
+	float: left;
+	margin-bottom: 0;
+}
+
+.nummervalj
+{
+	margin-top: 0;
+	max-width: 80px;
+}
+
+.artikelpris
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 45px;
+}
+
+.pris
+{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.tabort
+{
+	margin-top: 0;
+	padding: 0;
+}
+
+.style1
+
+{
+	margin-bottom: 0;
+	margin-top: 100px;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0px;
+width: 22%;
+}
